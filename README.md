@@ -65,10 +65,12 @@ We analyzed a dataset of 100k movie ratings from 610 users, across just under 10
 
  ##### Figure 1: Results on Training Data Set
  - We split our original data set into a training and a test set (80:20), and then used our new model on the training set. We found out that in predicting the rating of a movie our user has not seen yet will fall within 0.70 of the user's true rating. With the test data, our predictions fell within 0.89 points of the user's true rating. We feel as if this is an acceptable amount of error because the difference in a 4-star rating and a 5-star is not that much.
+ 
  ![rmse.png](https://github.com/danhales/mod-4-project/blob/master/Images/rmse.png)
  
  ##### Figure 2: Prediction Output
  - Here's an example of a given user's rating from the test data. The ratings for Toy Story and Toy Story 3 were outside of the 0.89 range of error, but the other predictions were spot on. 
+ 
  ![results.png](https://github.com/danhales/mod-4-project/blob/master/Images/results.png)
 
 
